@@ -40,7 +40,6 @@ function three () {
 function four () {
   var four = document.getElementById('four')
   four.addEventListener('click', makePurple)
-  four.addEventListener('click', makeWhite)
 }
 
 // Changes the background color of event's target
@@ -52,7 +51,7 @@ function makeGreen (evt) {
 }
 function makeOrange (evt) {
   evt.target.style.backgroundColor = 'orange'
-}
+}git
 function makePurple (evt) {
   evt.target.style.backgroundColor = 'purple'
 }
